@@ -1,0 +1,73 @@
+.root {
+    -fx-background-color: #111111;
+}
+
+.label {
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: white;
+    -fx-background-color: #1d4c43;
+}
+
+.mygridStyle Line {
+    -fx-stroke: cyan;
+}
+
+.scoreStyle Line {
+    -fx-stroke: white;
+}
+
+#shape {
+    -fx-font-family: "Impact";
+    -fx-text-fill: #00caf8;
+}
+
+.button {
+    -fx-background-color: #111111;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #00caf8;
+    -fx-font-size: 64px;
+}
+
+#playAgainBtn, #quit {
+    -fx-font-size: 12px;
+}
+
+.introBtn {
+    -fx-font-family: "Impact";
+    -fx-font-size: 18px;
+    -fx-background-color: #1d4c43;
+    -fx-border-color: #00caf8;
+    -fx-border-width: 2;
+    -fx-text-fill: #00caf8;
+    -fx-font-weight: bold;
+}
+
+#play {
+    -fx-background-color: #007acc;
+    -fx-border-color: #005f99;
+    -fx-border-width: 2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#hard {
+    -fx-background-color: #ff6666;
+    -fx-border-color: #990000;
+    -fx-border-width: 2;
+    -fx-text-fill: #660000;
+    -fx-font-weight: bold;
+}
+
+#easy {
+    -fx-background-color: #99ff99;
+    -fx-border-color: #339933;
+    -fx-border-width: 2;
+    -fx-text-fill: #266626;
+    -fx-font-weight: bold;
+}
+
+.title {
+    -fx-background-color: #111111;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #00caf8;
+}

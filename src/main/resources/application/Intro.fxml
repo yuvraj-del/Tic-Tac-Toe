@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.Controller">
+   <Button id="easy" layoutX="55.0" layoutY="208.0" mnemonicParsing="false" onAction="#easy" prefHeight="70.0"
+           prefWidth="119.0" styleClass="introBtn" text="Easy"/>
+   <Button id="play" alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="352.0" mnemonicParsing="false"
+           onAction="#play" prefHeight="34.0" prefWidth="81.0" styleClass="introBtn" text="Play"/>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="156.0" prefWidth="600.0"
+          styleClass="title" text="Tic-Tac-Toe">
+      <font>
+         <Font size="72.0"/>
+      </font>
+   </Label>
+   <Button id="hard" layoutX="241.0" layoutY="208.0" mnemonicParsing="false" onAction="#hard" prefHeight="70.0"
+           prefWidth="119.0" styleClass="introBtn" text="Impossible">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Button layoutX="422.0" layoutY="208.0" mnemonicParsing="false" onAction="#plr" prefHeight="70.0" prefWidth="119.0"
+           styleClass="introBtn" text="2 - Player">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+   <Label fx:id="text" layoutX="64.0" layoutY="335.0" prefHeight="34.0" prefWidth="179.0" styleClass="title"
+          text="Selected: 2-Player">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+</AnchorPane>
