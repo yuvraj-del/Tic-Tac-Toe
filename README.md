@@ -17,7 +17,7 @@ This is a Tic-Tac-Toe game developed in Java using IntelliJ and JavaFX for the u
 
 ## How to Run
 
-1. Download the latest release ZIP file (`Tic-Tac-Toe.zip`) from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases).
+1. Download the latest release ZIP file (`Tic-Tac-Toe.zip`) from the [Releases](https://github.com/yuvraj-del/Tic-Tac-Toe/releases).
 2. Extract the ZIP file.
 3. Navigate to the `app/bin` folder inside the extracted directory.
 4. Run `launch.vbs` to start the game.
