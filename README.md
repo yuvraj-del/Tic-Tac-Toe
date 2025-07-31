@@ -21,6 +21,7 @@ This is a Tic-Tac-Toe game developed in Java using IntelliJ and JavaFX for the u
 2. Extract the ZIP file.
 3. Navigate to the `app/bin` folder inside the extracted directory.
 4. Run `launch.vbs` to start the game.
+5. If `launch.vbs` doesn't work, try running `app.bat` instead.
 
 ---
 
